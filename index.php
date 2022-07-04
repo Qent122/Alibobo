@@ -3,6 +3,9 @@
 
 
 // echo $_SERVER["SERVER_SOFTWARE"];
+require_once './function/autoLoad.php';
+require_once './function/autoInclude.php';
+
 
 // pour determiner notre fuseau horaire = date_default_timezone_get() 
 date_default_timezone_set('Europe/Paris');
